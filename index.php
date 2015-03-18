@@ -3,7 +3,6 @@ ini_set('display_errors',1);
 error_reporting(999);
 
 include "vendor/CJForm/CJForm.php";
-include "vendor/fpdf17/fpdf.php";
 include "header.php";
 
 
