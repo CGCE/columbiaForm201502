@@ -240,13 +240,13 @@ $p->Text($x2,$y,$str2);
 $str1="Chartstring:";
 $x=$x0;
 $y=$y+27;
-$p->SetFont("AGaramondPro","",10);
+$p->SetFont("AGaramondPro-Semibold","",9.8);
 $p->Text($x,$y,$str1);
 
-$p->SetFillColor(108,171,231);
+$p->SetFillColor(148,211,255);
 $p->Rect(18,240,179,8,"F");
 
-$p->SetDrawColor(0,38,127);
+$p->SetDrawColor(0,0,0);
 $p->SetLineWidth(0.4);
 $p->Line(18,240,18,256);
 
@@ -309,20 +309,12 @@ $p->Line($x-2,240,$x-2,256);
 $p->Line(197,240,197,256);
 
 
-
-
-
-$p->SetDrawColor(0,38,127);
 $p->Line(18,240,197,240);
 $p->Line(18,248,197,248);
 $p->Line(18,256,197,256);
 
 
-
-
 $p->Output($fname,"F");
-
-
 
 echo json_encode("OK");
 ?>
