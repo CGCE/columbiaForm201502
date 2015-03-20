@@ -77,10 +77,10 @@ $x=$x0;
 $y=$y0;
 
 // Title
-$str1="Non-CU Expense Authorization Form";
+$str1="Department Expense Authorization Form";
 $p->SetTextColor(0,38,127);
 $p->SetFont("TrajanPro","",13.5);
-$p->Text(55,$y,$str1);
+$p->Text(50,$y,$str1);
 $p->Line(20,41.5,196,41.5);
 
 $y=$y+12;
@@ -237,32 +237,87 @@ $p->Text($x2,$y,$str2);
 
 
 
-$str1="Remit payment to:";
+$str1="Chartstring:";
 $x=$x0;
 $y=$y+27;
 $p->SetFont("AGaramondPro","",10);
 $p->Text($x,$y,$str1);
-$x=$x0+(strlen($str1)*1.7);
+
+$p->SetFillColor(108,171,231);
+$p->Rect(18,240,179,8,"F");
+
+$p->SetDrawColor(0,38,127);
+$p->SetLineWidth(0.4);
+$p->Line(18,240,18,256);
+
+$x=20;
+$y=245;
+
+$str="Unit";
+$p->Text($x,$y,$str);
+$x+=$p->GetStringWidth($str)+5;
+
+$str="Fund";
+$p->Text($x,$y,$str);
+$p->Line($x-2,240,$x-2,256);
+
+$x+=$p->GetStringWidth($str)+5;
+$str="Dept";
+$p->Text($x,$y,$str);
+$p->Line($x-2,240,$x-2,256);
+
+$x+=$p->GetStringWidth($str)+5;
+$str="Dept Description";
+$p->Text($x,$y,$str);
+$p->Line($x-2,240,$x-2,256);
+
+$x+=$p->GetStringWidth($str)+5;
+$str="PC Bus Unit";
+$p->Text($x,$y,$str);
+$p->Line($x-2,240,$x-2,256);
+
+$x+=$p->GetStringWidth($str)+5;
+$str="Project";
+$p->Text($x,$y,$str);
+$p->Line($x-2,240,$x-2,256);
+
+$x+=$p->GetStringWidth($str)+5;
+$str="Activity";
+$p->Text($x,$y,$str);
+$p->Line($x-2,240,$x-2,256);
+
+$x+=$p->GetStringWidth($str)+5;
+$str="Function";
+$p->Text($x,$y,$str);
+$p->Line($x-2,240,$x-2,256);
+
+$x+=$p->GetStringWidth($str)+5;
+$str="Initiative";
+$p->Text($x,$y,$str);
+$p->Line($x-2,240,$x-2,256);
+
+$x+=$p->GetStringWidth($str)+5;
+$str="Segment";
+$p->Text($x,$y,$str);
+$p->Line($x-2,240,$x-2,256);
+
+$x+=$p->GetStringWidth($str)+5;
+$str="Site";
+$p->Text($x,$y,$str);
+$p->Line($x-2,240,$x-2,256);
+
+$p->Line(197,240,197,256);
 
 
-$str1="Columbia University";
-$y=$y+7;
-$p->SetTextColor(108,171,231);
-$p->SetFont("AGaramondPro-Semibold","",12);
-$p->Text($x0,$y,$str1);
 
 
-$str1="ATTN: Columbia Global Centers | Europe";
-$y=$y+5;
-$p->Text($x0,$y,$str1);
 
-$str1="91 Claremont Ave. Suite 529";
-$y=$y+5;
-$p->Text($x0,$y,$str1);
+$p->SetDrawColor(0,38,127);
+$p->Line(18,240,197,240);
+$p->Line(18,248,197,248);
+$p->Line(18,256,197,256);
 
-$str1="New York, NY 10027";
-$y=$y+5;
-$p->Text($x0,$y,$str1);
+
 
 
 $p->Output($fname,"F");
