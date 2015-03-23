@@ -22,10 +22,15 @@ $f->endArticle();
 
 $f->newArticle("projectNav");
 $f->h("project");
-$f->inputText("evenement",true);
+$f->inputText("CUGlobalCenter",true);
+$f->inputText("school",true);
+$f->inputText("programTitle",true);
+$f->inputText("programDesc",true);
+$f->inputText("costEstimate",true);
 $f->inputDates("dates",true,true,7);
 $f->buttons("previous-previous,next-next");
 $f->endArticle();
+
 
 $f->newArticle("organizerNav");
 $f->h("organizer");
@@ -33,7 +38,6 @@ $f->h("organizer");
 $f->h("leader",3);
 $f->inputText("firstname",true);
 $f->inputText("lastname",true);
-$f->inputText("department",true);
 
 $f->inputText("courriel",true,"mail");
 $f->inputText("tel");

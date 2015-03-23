@@ -38,7 +38,7 @@ Your payment authorization form can now be downloaded <a href='javascript:genera
 Once it is filled out and signed, please send it to <a href='mailto:parisfinance.cgc@columbia.edu'>parisfinance.cgc@columbia.edu</a>.<br/>\
 We look forward to welcoming you to our Center.";
 
-CJLang.project="Event information";
+CJLang.project="Project information";
 CJLang.projectNav="Project";
 CJLang.CUGlobalCenter="CU Global Center";
 CJLang.school="School / Institution";
