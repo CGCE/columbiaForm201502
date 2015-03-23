@@ -123,21 +123,36 @@ La responsabilité de Reid Hall ne saurait être engagée en cas de perte ou de 
 
 CJLang.merci="Les informations saisies ont bien été enregistrées.<br/>Nous vous recontacterons dès que possible.";
 
-CJLang.hour08="08:00";
-CJLang.hour09="09:00";
-CJLang.hour10="10:00";
-CJLang.hour11="11:00";
-CJLang.hour12="12:00";
-CJLang.hour13="13:00";
-CJLang.hour14="14:00";
-CJLang.hour15="15:00";
-CJLang.hour16="16:00";
-CJLang.hour17="17:00";
-CJLang.hour18="18:00";
-CJLang.hour19="19:00";
-CJLang.hour20="20:00";
-CJLang.hour21="21:00";
-CJLang.hour22="22:00";
+CJLang.hour0800="08:00";
+CJLang.hour0900="09:00";
+CJLang.hour1000="10:00";
+CJLang.hour1100="11:00";
+CJLang.hour1200="12:00";
+CJLang.hour1300="13:00";
+CJLang.hour1400="14:00";
+CJLang.hour1500="15:00";
+CJLang.hour1600="16:00";
+CJLang.hour1700="17:00";
+CJLang.hour1800="18:00";
+CJLang.hour1900="19:00";
+CJLang.hour2000="20:00";
+CJLang.hour2100="21:00";
+CJLang.hour2200="22:00";
+CJLang.hour0830="08:30";
+CJLang.hour0930="09:30";
+CJLang.hour1030="10:30";
+CJLang.hour1130="11:30";
+CJLang.hour1230="12:30";
+CJLang.hour1330="13:30";
+CJLang.hour1430="14:30";
+CJLang.hour1530="15:30";
+CJLang.hour1630="16:30";
+CJLang.hour1730="17:30";
+CJLang.hour1830="18:30";
+CJLang.hour1930="19:30";
+CJLang.hour2030="20:30";
+CJLang.hour2130="21:30";
+CJLang.hour2230="22:30";
 
 CJLang.addDate="Ajouter une date";
 

@@ -51,6 +51,7 @@ $f->inputText("tel");
 $f->buttons("previous-previous,next-next");
 $f->endArticle();
 
+/*
 $f->newArticle("financeNav");
 $f->h("finance");
 $f->inputText("firstname",true);
@@ -60,7 +61,7 @@ $f->inputText("tel");
 
 $f->buttons("previous-previous,next-next");
 $f->endArticle();
-
+*/
 
 $f->newArticle("natureNav");
 $f->h("nature");
